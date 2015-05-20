@@ -9,4 +9,14 @@ title: Qué es esto?
   <i>por favor merecemos 10 :D 👍🏿</i>
 </p>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Los integrantes de este equipo son:
+<ul>
+  <li>
+    <a class="sidebar-nav-item" href="http://twitter.com/joseramonc">José Ramón Camacho</a>
+  </li>
+  <li>
+    <a class="sidebar-nav-item" href="http://twitter.com/jupazave">Juan Pablo Zamora</a>
+  </li>
+</ul>
+
+Se recomienda discreción al ver este sitio, ya que el contenido son puras locuras.

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<script>
+  $(document).ready(function(){
+    $("ul.post-list li a").click(function(e) {
+      e.preventDefault();
+
+      console.log($(this).data('target-id'));
+      $('html, body').animate({
+          scrollTop: $($(this).data('target-id')).offset().top
+      }, 1000);
+    });
+  });
+</script>

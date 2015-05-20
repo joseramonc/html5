@@ -1,4 +1,4 @@
-<side class="sidebar">
+<div class="sidebar">
   <div class="container">
     <img src="/img/html5.png" alt="logo" style="margin-left: 15%; width: 70%;">
     <div class="sidebar-about">
@@ -23,15 +23,14 @@
         {% endif %}
       {% endfor %}
 
-      <h6>Equipo</h6>
-      <ul>
-        <li>
-          <a class="sidebar-nav-item" href="http://twitter.com/joseramonc">José Ramón Camacho</a>
-        </li>
-        <li>
-          <a class="sidebar-nav-item" href="http://twitter.com/jupazave">Juan Pablo Zamora</a>
-        </li>
+      <h6>Publicaciones</h6>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <a class="sidebar-nav-item" href="{{post.url}}" data-target-id="#{{post.selector-id}}"> {{ post.title | titleize}}</a>
+          </li>
+        {% endfor %}
       </ul>
     </nav>
   </div>
-</side>
+</div>
