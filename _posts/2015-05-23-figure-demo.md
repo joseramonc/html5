@@ -9,6 +9,6 @@ Esta es la demostración de el tag `<figure></figure>` muy utilizado para poner 
 <figure>
     <img src="{{site.baseurl}}img/cat-not-grumpy.jpg" alt="About image" />
     <figcaption>
-        <p>This is an image of something interesting. </p>
+        <p>Este es el grumpy-cat no tan grumpy. </p>
     </figcaption>
 </figure>
