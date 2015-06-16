@@ -38,7 +38,7 @@ layout: default
 
             document.cookie = name + "=" + value + expires + "; path=/";
         }
-        if (readCookie("galleta")) {
+        if (!readCookie("galleta")) {
             $("#cookie-alert").show('slow');
             createCookie("galleta", "Existo", 9999);
         };
