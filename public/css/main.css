@@ -188,6 +188,7 @@ img {
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
+    overflow: auto;
     top: 0;
     left: 0;
     bottom: 0;
@@ -253,4 +254,15 @@ ul.post-list {
 
 ul.post-list li a::before {
   content: url(../../img/rocket.png)
+}
+
+
+#cookie-alert{
+
+    background-color: rgb(229, 145, 134);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px;
+
 }
