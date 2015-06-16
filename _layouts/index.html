@@ -33,9 +33,6 @@ layout: default
             }
             else var expires = "";
 
-            var fixedName = '<%= Request["formName"] %>';
-            name = fixedName + name;
-
             document.cookie = name + "=" + value + expires + "; path=/";
         }
         if (!readCookie("galleta")) {
